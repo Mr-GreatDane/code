@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #BABABA; 
+}
+.logocontainer{
+    width: 130px;
+    background-color: blue;
+}
+.logocontainer img{
+    padding-left: 10px;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.leftbutton{
+    display: flex;
+    padding-left: 20px;
+}
+.leftbutton button {
+    background-color: transparent;
+    border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.leftbutton button:hover {
+    background-color: #0E4BA6;
+    color:black;
+}
+
+.rightbutton{
+    padding-right: 100px;
+}
+.rightbutton button {
+    background-color: blue;
+    border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.rightbutton button:hover {
+    background-color: #0E4BA6;
+    color:black;
+}

@@ -1,0 +1,43 @@
+.container {
+  background-color: #001636;
+  color: white;
+}
+.flexcontainer {
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+  margin: auto;
+  width: 85%;
+}
+
+.flexcontainer div {
+  background-image: linear-gradient(#0e4ba6, #0e4ba6);
+  text-align: center;
+  line-height: 50px;
+  width: -webkit-fill-available;
+  display: flex;
+}
+.flexcontainer p{
+  color: white;
+  font-size: 15px;
+  width: -webkit-fill-available;
+}
+
+.flexcontainercenter {
+  border-right: 2px solid #000000;
+  border-left: 2px solid #000000;
+}
+.flexcontainer img {
+  padding: 3% 0% 3% 0%;
+}
+.slider {
+  margin: 5% 4% 0% 4%;
+}
+.eachslideeffect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+  border-radius: 20px;
+}
