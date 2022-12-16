@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Mountainbikes from "../components/Mountainbikes";
+import Mountainbikes from "../components/mountainbikes";
 import Aboutcontact from "../components/Aboutcontact";
 
 export default function mountainbikes() {
