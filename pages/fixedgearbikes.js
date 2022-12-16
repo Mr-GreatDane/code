@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import FixedGearbikes from "../components/FixedGearbikes";
+import FixedGearbikes from "../components/fixedgearbikes";
 import Aboutcontact from "../components/Aboutcontact";
 
 export default function fixedgearbikes() {
