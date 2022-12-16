@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import Roadbikes from "../components/Roadbikes";
+import Roadbikes from "../components/roadbikes";
 import Aboutcontact from "../components/Aboutcontact";
 
 export default function roadbikes() {
